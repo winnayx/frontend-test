@@ -1,13 +1,9 @@
 import React from "react";
 import "./App.css";
-import Table from "./components/Table";
+import TableContainer from "./components/TableContainer";
 
 function App() {
-  return (
-    <div className="App">
-      <Table />
-    </div>
-  );
+  return <TableContainer />;
 }
 
 export default App;
